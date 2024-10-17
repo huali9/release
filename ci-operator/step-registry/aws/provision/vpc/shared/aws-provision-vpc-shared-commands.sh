@@ -351,7 +351,7 @@ Resources:
     Type: AWS::EC2::DHCPOptions
     Condition: DoDhcp
     Properties:
-        DomainName: qe.example.com
+        DomainName: huali.com
         DomainNameServers:
           - AmazonProvidedDNS
   VPCDHCPOptionsAssociation:
