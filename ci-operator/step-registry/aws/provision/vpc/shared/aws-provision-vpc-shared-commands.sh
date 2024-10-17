@@ -351,7 +351,7 @@ Resources:
     Type: AWS::EC2::DHCPOptions
     Condition: DoDhcp
     Properties:
-        DomainName: HUALI-Qe.example.com
+        DomainName: qe.devcluster.openshift.com HUALI-Qe.example.com
         DomainNameServers:
           - AmazonProvidedDNS
   VPCDHCPOptionsAssociation:
